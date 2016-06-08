@@ -17,3 +17,7 @@ We will learn how to use store.subscribe() to efficiently persist some of the ap
 ## 04. Refactoring the Entry Point
 We will learn how to better separate the code in the entry point to prepare it for adding the router.
 [Video](https://egghead.io/lessons/javascript-redux-refactoring-the-entry-point?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
+
+
+## 05. Adding React Router to the project
+We will learn how to add React Router to a Redux project and make it render our root component. [Video](https://egghead.io/lessons/javascript-redux-adding-react-router-to-the-project?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
