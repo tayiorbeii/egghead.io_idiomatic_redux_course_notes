@@ -21,3 +21,8 @@ We will learn how to better separate the code in the entry point to prepare it f
 
 ## 05. Adding React Router to the project
 We will learn how to add React Router to a Redux project and make it render our root component. [Video](https://egghead.io/lessons/javascript-redux-adding-react-router-to-the-project?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
+
+
+## 06. Navigating with React Router `<Link>`
+We will learn how to change the address bar using a component from React Router.
+[Video](https://egghead.io/lessons/javascript-redux-navigating-with-react-router-link?series=building-react-applications-with-idiomatic-redux)
