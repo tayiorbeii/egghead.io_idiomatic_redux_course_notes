@@ -26,3 +26,8 @@ We will learn how to add React Router to a Redux project and make it render our 
 ## 06. Navigating with React Router `<Link>`
 We will learn how to change the address bar using a component from React Router.
 [Video](https://egghead.io/lessons/javascript-redux-navigating-with-react-router-link?series=building-react-applications-with-idiomatic-redux)
+
+
+## 07. Filtering Redux State with React Router Prarams
+We will learn how adding React Router shifts the balance of responsibilities, and how the components can use both at the same time.
+[Video](https://egghead.io/lessons/javascript-redux-filtering-redux-state-with-react-router-params)
