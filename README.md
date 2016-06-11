@@ -46,3 +46,8 @@ We will learn how to avoid the boilerplate code in `mapDispatchToProps()` for th
 ## 10. Colocating Selectors with reducers
 We will learn how to encapsulate the knowledge about the state shape in the reducer files, so that the components don’t have to rely on it.
 [Video](https://egghead.io/lessons/javascript-redux-colocating-selectors-with-reducers?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
+
+
+## 11. Normalizing the State Shape
+We will learn how to normalize the state shape to ensure data consistency that is important in real-world applications.
+[Video](https://egghead.io/lessons/javascript-redux-normalizing-the-state-shape)
