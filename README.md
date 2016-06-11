@@ -33,11 +33,16 @@ We will learn how adding React Router shifts the balance of responsibilities, an
 [Video](https://egghead.io/lessons/javascript-redux-filtering-redux-state-with-react-router-params)
 
 
-## 08. Using withRouter() to Inject the Params into Connected Components
-We will learn how to use withRouter() to inject params provided by React Router into connected components deep in the tree without passing them down all the way down as props.
+## 08. Using `withRouter()` to Inject the Params into Connected Components
+We will learn how to use `withRouter()` to inject params provided by React Router into connected components deep in the tree without passing them down all the way down as props.
 [Video](https://egghead.io/lessons/javascript-redux-using-withrouter-to-inject-the-params-into-connected-components)
 
 
 ## 09. Using `mapDispatchToProps()` Shorthand Notation
-We will learn how to avoid the boilerplate code in mapDispatchToProps() for the common case where action creator arguments match the callback prop arguments.
+We will learn how to avoid the boilerplate code in `mapDispatchToProps()` for the common case where action creator arguments match the callback prop arguments.
 [Video](https://egghead.io/lessons/javascript-redux-using-mapdispatchtoprops-shorthand-notation)
+
+
+## 10. Colocating Selectors with reducers
+We will learn how to encapsulate the knowledge about the state shape in the reducer files, so that the components don’t have to rely on it.
+[Video](https://egghead.io/lessons/javascript-redux-colocating-selectors-with-reducers?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
