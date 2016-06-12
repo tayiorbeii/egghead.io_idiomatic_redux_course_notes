@@ -81,3 +81,8 @@ We will learn how to teach `dispatch()` to recognize Promises so that we can mov
 ## 17. The Middleware chain
 We will learn how we can generalize wrapping `dispatch()` for different purposes into a concept called “middleware” that is widely available in the Redux ecosystem.
 [Video](https://egghead.io/lessons/javascript-redux-the-middleware-chain)
+
+
+## 18. Applying Redux Middleware
+We will learn how to replace the middleware we wrote and the custom code we used to glue it together with the existing core and third party utilities.
+[Video](https://egghead.io/lessons/javascript-redux-applying-redux-middleware)
