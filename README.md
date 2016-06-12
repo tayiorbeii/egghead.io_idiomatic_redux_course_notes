@@ -56,3 +56,8 @@ We will learn how to normalize the state shape to ensure data consistency that i
 ## 12. Wrapping `dispatch()` to Log Actions
 We will learn how centralized updates in Redux let us log every state change to the console along with the action that caused it.
 [Video](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-log-actions)
+
+
+## 13. Adding a Fake Backend to the Project
+We will learn about fake backend module that we will be using throughout the next lessons to simulate data fetching.
+[Video](https://egghead.io/lessons/javascript-redux-adding-a-fake-backend-to-the-project)
