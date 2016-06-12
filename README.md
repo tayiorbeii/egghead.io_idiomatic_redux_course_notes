@@ -71,3 +71,8 @@ We will learn how to fire up an async request when the route changes.
 ## 15. Dispatching Actions with the Fetched Data
 We will learn how to dispatch a Redux action after the data has been fetched and recap how to do it when the route changes.
 [Video](https://egghead.io/lessons/javascript-redux-dispatching-actions-with-the-fetched-data?series=building-react-applications-with-idiomatic-redux)
+
+
+## 16. Wrapping `dispatch()` to Recognize Promises
+We will learn how to teach `dispatch()` to recognize Promises so that we can move the async logic out of the components into asynchronous action creators.
+[Video](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-recognize-promises)
