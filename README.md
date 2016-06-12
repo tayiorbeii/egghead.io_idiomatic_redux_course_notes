@@ -76,3 +76,8 @@ We will learn how to dispatch a Redux action after the data has been fetched and
 ## 16. Wrapping `dispatch()` to Recognize Promises
 We will learn how to teach `dispatch()` to recognize Promises so that we can move the async logic out of the components into asynchronous action creators.
 [Video](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-recognize-promises)
+
+
+## 17. The Middleware chain
+We will learn how we can generalize wrapping `dispatch()` for different purposes into a concept called “middleware” that is widely available in the Redux ecosystem.
+[Video](https://egghead.io/lessons/javascript-redux-the-middleware-chain)

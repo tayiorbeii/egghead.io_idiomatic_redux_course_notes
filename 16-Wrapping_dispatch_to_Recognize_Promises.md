@@ -1,4 +1,4 @@
-# Wrapping `dispatch()` to Recognize Promises
+# 16. Wrapping `dispatch()` to Recognize Promises
 [Video Link](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-recognize-promises)
 
 The `receiveTodos` action creator is not very useful by itself because anytime we call it, we want to fetch the `todos` first. Since `fetchTodos` and `receiveTodos` accept the same arguments, it would be great if we could group this code into a single action creator.
