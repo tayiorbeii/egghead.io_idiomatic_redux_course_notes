@@ -51,3 +51,8 @@ We will learn how to encapsulate the knowledge about the state shape in the redu
 ## 11. Normalizing the State Shape
 We will learn how to normalize the state shape to ensure data consistency that is important in real-world applications.
 [Video](https://egghead.io/lessons/javascript-redux-normalizing-the-state-shape)
+
+
+## 12. Wrapping `dispatch()` to Log Actions
+We will learn how centralized updates in Redux let us log every state change to the console along with the action that caused it.
+[Video](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-log-actions)
