@@ -66,3 +66,8 @@ We will learn about fake backend module that we will be using throughout the nex
 ## 14. Fetching Data on Route Change
 We will learn how to fire up an async request when the route changes.
 [Video](https://egghead.io/lessons/javascript-redux-fetching-data-on-route-change)
+
+
+## 15. Dispatching Actions with the Fetched Data
+We will learn how to dispatch a Redux action after the data has been fetched and recap how to do it when the route changes.
+[Video](https://egghead.io/lessons/javascript-redux-dispatching-actions-with-the-fetched-data?series=building-react-applications-with-idiomatic-redux)
