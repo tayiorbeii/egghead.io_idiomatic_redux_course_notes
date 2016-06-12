@@ -61,3 +61,8 @@ We will learn how centralized updates in Redux let us log every state change to 
 ## 13. Adding a Fake Backend to the Project
 We will learn about fake backend module that we will be using throughout the next lessons to simulate data fetching.
 [Video](https://egghead.io/lessons/javascript-redux-adding-a-fake-backend-to-the-project)
+
+
+## 14. Fetching Data on Route Change
+We will learn how to fire up an async request when the route changes.
+[Video](https://egghead.io/lessons/javascript-redux-fetching-data-on-route-change)
