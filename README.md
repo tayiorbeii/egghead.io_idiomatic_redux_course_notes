@@ -86,3 +86,8 @@ We will learn how we can generalize wrapping `dispatch()` for different purposes
 ## 18. Applying Redux Middleware
 We will learn how to replace the middleware we wrote and the custom code we used to glue it together with the existing core and third party utilities.
 [Video](https://egghead.io/lessons/javascript-redux-applying-redux-middleware)
+
+
+## 19. Updating the State with the Fetched Data
+We will learn how moving the source of truth for the data to the server changes the state shape and the reducers in our app.
+[Video](https://egghead.io/lessons/javascript-redux-updating-the-state-with-the-fetched-data)
