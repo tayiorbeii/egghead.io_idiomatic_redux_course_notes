@@ -95,3 +95,8 @@ We will learn how moving the source of truth for the data to the server changes 
 ## 20. Refactoring the reducers
 We will learn how to remove the duplication in our reducer files and how to keep the knowledge about the state shape colocated with the newly extracted reducers.
 [Video](https://egghead.io/lessons/javascript-redux-refactoring-the-reducers)
+
+
+## 21. Displaying Loading Indicators
+We will learn how to display the loading indicators while the data is being fetched.
+[Video](https://egghead.io/lessons/javascript-redux-displaying-loading-indicators)
