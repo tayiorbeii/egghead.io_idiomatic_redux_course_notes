@@ -91,3 +91,7 @@ We will learn how to replace the middleware we wrote and the custom code we used
 ## 19. Updating the State with the Fetched Data
 We will learn how moving the source of truth for the data to the server changes the state shape and the reducers in our app.
 [Video](https://egghead.io/lessons/javascript-redux-updating-the-state-with-the-fetched-data)
+
+## 20. Refactoring the reducers
+We will learn how to remove the duplication in our reducer files and how to keep the knowledge about the state shape colocated with the newly extracted reducers.
+[Video](https://egghead.io/lessons/javascript-redux-refactoring-the-reducers)
