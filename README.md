@@ -104,3 +104,7 @@ We will learn how to display the loading indicators while the data is being fetc
 ## 22. Dispatching Actions Asynchronously with Thunks
 We will learn about “thunks”—the most common way to write async action creators in Redux.
 [Video](https://egghead.io/lessons/javascript-redux-dispatching-actions-asynchronously-with-thunks)
+
+## 23. Avoiding Race Conditions with Thunks
+We will learn how Redux Thunk middleware lets us conditionally dispatch actions to avoid unnecessary network requests and potential race conditions.
+[Video](https://egghead.io/lessons/javascript-redux-avoiding-race-conditions-with-thunks)
