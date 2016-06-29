@@ -100,3 +100,7 @@ We will learn how to remove the duplication in our reducer files and how to keep
 ## 21. Displaying Loading Indicators
 We will learn how to display the loading indicators while the data is being fetched.
 [Video](https://egghead.io/lessons/javascript-redux-displaying-loading-indicators)
+
+## 22. Dispatching Actions Asynchronously with Thunks
+We will learn about “thunks”—the most common way to write async action creators in Redux.
+[Video](https://egghead.io/lessons/javascript-redux-dispatching-actions-asynchronously-with-thunks)
