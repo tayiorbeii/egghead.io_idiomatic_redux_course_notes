@@ -112,3 +112,7 @@ We will learn how Redux Thunk middleware lets us conditionally dispatch actions 
 ## 24. Displaying Error Messages
 We will learn how to handle an error inside an async action, display its message in the user interface, and offer user an opportunity to retry the action.
 [Video](https://egghead.io/lessons/javascript-redux-displaying-error-messages)
+
+## 25. Creating Data on the Server
+We will learn how to wait until the item is created on the server, and update the corresponding local state.
+[Video](https://egghead.io/lessons/javascript-redux-creating-data-on-the-server)
