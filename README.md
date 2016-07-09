@@ -116,3 +116,7 @@ We will learn how to handle an error inside an async action, display its message
 ## 25. Creating Data on the Server
 We will learn how to wait until the item is created on the server, and update the corresponding local state.
 [Video](https://egghead.io/lessons/javascript-redux-creating-data-on-the-server)
+
+## 26. Normalizing API Responses with `normalizr`
+We will learn how to use normalizr to convert all API responses to a normalized format so that we can simplify the reducers.
+[Video](https://egghead.io/lessons/javascript-redux-normalizing-api-responses-with-normalizr)
