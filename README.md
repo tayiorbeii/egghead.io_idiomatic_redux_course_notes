@@ -120,3 +120,7 @@ We will learn how to wait until the item is created on the server, and update th
 ## 26. Normalizing API Responses with `normalizr`
 We will learn how to use normalizr to convert all API responses to a normalized format so that we can simplify the reducers.
 [Video](https://egghead.io/lessons/javascript-redux-normalizing-api-responses-with-normalizr)
+
+## 27. Updating Data on the Server
+We will learn how to wait until the item is updated on the server, and then update the corresponding local state.
+[Video](https://egghead.io/lessons/javascript-redux-updating-data-on-the-server)
