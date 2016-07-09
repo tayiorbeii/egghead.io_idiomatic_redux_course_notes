@@ -108,3 +108,7 @@ We will learn about “thunks”—the most common way to write async action cre
 ## 23. Avoiding Race Conditions with Thunks
 We will learn how Redux Thunk middleware lets us conditionally dispatch actions to avoid unnecessary network requests and potential race conditions.
 [Video](https://egghead.io/lessons/javascript-redux-avoiding-race-conditions-with-thunks)
+
+## 24. Displaying Error Messages
+We will learn how to handle an error inside an async action, display its message in the user interface, and offer user an opportunity to retry the action.
+[Video](https://egghead.io/lessons/javascript-redux-displaying-error-messages)
