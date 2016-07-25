@@ -28,7 +28,7 @@ Our next schema called `arrayOfTodos` corresponds to the responses that contain 
 import { Schema, arrayOf } from 'normalizr'
 
 export const todo = new Schema('todos');
-export const arrayOfTodos = arrayOf('todos');
+export const arrayOfTodos = arrayOf(todo);
 ```
 
 ### Updating our Action Creators
