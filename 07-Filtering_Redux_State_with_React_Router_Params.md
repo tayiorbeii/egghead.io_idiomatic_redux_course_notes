@@ -20,7 +20,7 @@ In order to fix this, we'll add an argument `ownProps`, and we'll read the `visi
 const mapStateToProps = (state, ownProps) => ({
   todos: getVisibleTodos(
     state.todos,
-    ownProps.visibilityFilter
+    ownProps.filter
   )
 })
 ```
