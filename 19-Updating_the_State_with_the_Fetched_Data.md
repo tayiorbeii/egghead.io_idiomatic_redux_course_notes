@@ -204,6 +204,6 @@ const byId = (state = {}, action) => {
 
 ### Finishing Up
 
-As the last step, we can remove the import of `todos.js` as well as the file itself from our project, because the logic for adding and toggling todos will be implemented as API calls to the server in the future lessons.
+As the last step, we can remove the import of `todo.js` as well as the file itself from our project, because the logic for adding and toggling todos will be implemented as API calls to the server in the future lessons.
 
 [Recap at 5:22 in video](https://egghead.io/lessons/javascript-redux-updating-the-state-with-the-fetched-data)
