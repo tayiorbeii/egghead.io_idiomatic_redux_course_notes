@@ -160,7 +160,7 @@ const todo = (state, action) => {
 export default todo;
 ```
 
-#### `todo.js`
+#### `todos.js`
 ```javascript
 import { combineReducers } from 'redux';
 import todo from './todo';
