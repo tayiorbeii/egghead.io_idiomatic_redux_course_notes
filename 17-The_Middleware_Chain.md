@@ -51,7 +51,7 @@ const addPromiseSupportToDispatch = (store) => {
     if (typeof action.then === 'function') {
       return action.then(next);
     }
-    return rawDispatch(next);
+    return next(action);
   };
 };
 ```
