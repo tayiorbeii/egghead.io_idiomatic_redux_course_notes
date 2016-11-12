@@ -91,7 +91,7 @@ const allIds = (state = [], action) => {
 };
 ```
 
-We'll start by renaming `'ADD_TODO'` to 'RECEIVE_TODOS`. In order to handle the `'RECEIVE_TODOS'` action, we want to return a new array of todos that we'll get from the server response. We'll map this new array of todos to a function that just selects an `id` from the `todo`. Recall that we decided to keep all IDs separate from active IDs and completed IDs, so they are fetched completely independently.
+We'll start by renaming `ADD_TODO` to `RECEIVE_TODOS`. In order to handle the `RECEIVE_TODOS` action, we want to return a new array of todos that we'll get from the server response. We'll map this new array of todos to a function that just selects an `id` from the `todo`. Recall that we decided to keep all IDs separate from active IDs and completed IDs, so they are fetched completely independently.
 
 #### `allIds` After:
 ```javascript
@@ -107,7 +107,7 @@ const allIds = (state = [], action) => {
 
 #### Creating the `activeIds` Reducer
 
-Our `activeIds` reducer will also keep track of an array of `id`s, but only for `todos` on the active tab. We will need to handle the `'RECEIVE_TODOS'` action in exactly the same way as the `allIds` reducer before it.
+Our `activeIds` reducer will also keep track of an array of `id`s, but only for `todos` on the active tab. We will need to handle the `RECEIVE_TODOS` action in exactly the same way as the `allIds` reducer before it.
 
 ```javascript
 const activeIds = (state = [], action) => {
@@ -122,9 +122,9 @@ const activeIds = (state = [], action) => {
 
 ### Updating the Correct Array
 
-Both `activeIds` and `allIds` need to return a new `state` when the `'RECEIVE_TODOS'` action fires, but we need to have a way of telling which `id` array we should update.
+Both `activeIds` and `allIds` need to return a new `state` when the `RECEIVE_TODOS` action fires, but we need to have a way of telling which `id` array we should update.
 
-If you recall the `'RECEIVE_TODOS'` action, you might remember that we passed the `filter` as part of the action. This lets us compare the `filter` inside the action with a `filter` corresponding to the reducer.
+If you recall the `RECEIVE_TODOS` action, you might remember that we passed the `filter` as part of the action. This lets us compare the `filter` inside the action with a `filter` corresponding to the reducer.
 
 The `allIds` reducer is only interested in the actions with the `all` filter, and the `activeIds` is only interested in the `active` filter.
 
@@ -136,7 +136,7 @@ const activeIds = (state = [], action) => {
   }
   // rest of code as above
 ```
-_Repeat for `allIds` but remember to replace `'active'` with `'all'`_
+_Repeat for `allIds` but remember to replace `active` with `all`_
 
 
 ### Creating the `completedIds` Reducer
@@ -176,7 +176,7 @@ const byId = (state = {}, action) => {
 };
 ```
 
-We can start by removing the existing `case`s because the data does not live locally anymore. Instead, we will handle the `'RECEIVE_TODOS'` action just in the other reducers.
+We can start by removing the existing `case`s because the data does not live locally anymore. Instead, we will handle the `RECEIVE_TODOS` action just in the other reducers.
 
 Then we'll create `nextState`, a shallow copy of the `state` object which corresponds to the lookup table. We want to iterate through every `todo` object in the `response` and put it into our `nextState`.
 
