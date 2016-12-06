@@ -29,7 +29,7 @@ Rather than keep one big list of `id`s, we'll keep a list of `id`s for every fil
 
 We'll remove the `getAllTodos` selector because we won't have access to `allTodos`. We also don't need to filter on the client anymore because we will use the list of todos provided by the server. This means we can remove our `switch` statement from the current implementation.
 
-Instead of reading from `state.allIds`, we will read the IDs from `state.IdsByFilter[filter]`. Then we will map the `id`s to the `stateById` lookup table to get the actual todos.
+Instead of reading from `state.allIds`, we will read the IDs from `state.IdsByFilter[filter]`. Then we will map the `id`s to the `state.ById` lookup table to get the actual todos.
 
 #### Updated `getVisibleTodos`
 ```javascript
