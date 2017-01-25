@@ -59,7 +59,7 @@ if (!console.group) {
 }
 ```
 
-Since it's not a good idea to log everything in production, we add a gate inside of `configureStore()` saying that if process and node [inaudible 2:09] is not production, then we're going to run this code. Otherwise, we're just going to leave the store as is.
+Since it's not a good idea to log everything in production, we add a gate inside of `configureStore()` saying that if `process.env.NODE_ENV` is not production, then we're going to run this code. Otherwise, we're just going to leave the store as is.
 
 #### Inside `configureStore`
 ```javascript
