@@ -25,10 +25,10 @@ Our first exported Schema will be for the `todo` objects, and we'll specify `tod
 Our next schema called `arrayOfTodos` corresponds to the responses that contain arrays of `todo` objects.
 
 ```javascript
-import { Schema, arrayOf } from 'normalizr'
+import { schema } from 'normalizr'
 
-export const todo = new Schema('todos');
-export const arrayOfTodos = arrayOf(todo);
+export const todo = new schema.Entity('todos');
+export const arrayOfTodos = new schema.Array(todo);
 ```
 
 ### Updating our Action Creators
