@@ -50,7 +50,7 @@ export const getVisibleTodos = (state, filter) => {
 ```
 
 ### Updating the Root Reducer
-Inside of `VisibleTodoList` we still depend on the state structure because because we read the `todos` from the state, but the actual method of reading `todos` may change in the future.
+Inside of `VisibleTodoList` we still depend on the state structure because we read the `todos` from the state, but the actual method of reading `todos` may change in the future.
 
 With this in mind, we are going to update our root reducer with a named selector export. It will also be called `getVisibleTodos`, and like before it also accepts `state` and `filter`. However, in this case `state` corresponds to the state of the combined reducer.
 
