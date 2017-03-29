@@ -1,0 +1,26 @@
+{
+  "name": "egghead.io_idiomatic_redux_course_notes",
+  "version": "1.0.0",
+  "description": "This repo contains notes from [Dan Abramov](https://github.com/gaearon)'s second [Redux course](https://egghead.io/courses/building-react-applications-with-idiomatic-redux).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggheadio/egghead.io_idiomatic_redux_course_notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eggheadio/egghead.io_idiomatic_redux_course_notes/issues"
+  },
+  "homepage": "https://github.com/eggheadio/egghead.io_idiomatic_redux_course_notes#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "gitbook-plugin-advanced-emoji": "^0.1.9",
+    "gitbook-plugin-hints": "^1.0.1",
+    "gitbook-plugin-prism": "^1.1.0"
+  }
+}

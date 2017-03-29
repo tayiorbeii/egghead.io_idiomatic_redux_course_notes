@@ -1,0 +1,5 @@
+{
+  "title": "egghead.io - Building React Applications with Idiomatic Redux",
+  "description": "This repo contains notes from [Dan Abramov](https://github.com/gaearon)'s second [Redux course](https://egghead.io/courses/building-react-applications-with-idiomatic-redux).",
+  "plugins" : ["advanced-emoji", "prism", "-highlight", "hints"]
+}
