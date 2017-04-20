@@ -64,3 +64,8 @@ Since the `persistedState` that we provided as a second argument to `createStore
 It may be tempting to supply an initial state for your entire store inside of `persistedState`, but it is not recommended. If you were to do this, it would become more difficult to test and change your reducers later.
 
 #### [Recap at 1:42 in video](https://egghead.io/lessons/javascript-redux-supplying-the-initial-state)
+
+<p align="center">
+<a href="./01-Simplifying_the_Arrow_Functions.md"><- Prev</a>
+<a href="./03-Persisting_the_State_to_the_Local_Storage.md">Next -></a>
+</p>

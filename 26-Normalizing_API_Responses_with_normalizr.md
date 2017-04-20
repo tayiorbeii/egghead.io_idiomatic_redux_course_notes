@@ -188,3 +188,8 @@ const ids = (state = [], action) => {
 ```
 
 [Demonstration and recap at 5:33 in video](https://egghead.io/lessons/javascript-redux-normalizing-api-responses-with-normalizr)
+
+<p align="center">
+<a href="./25-Creating_Data_on_the_Server.md"><- Prev</a>
+<a href="./27-Updating_Data_on_the_Server.md">Next -></a>
+</p>

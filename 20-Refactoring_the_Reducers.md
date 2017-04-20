@@ -67,3 +67,8 @@ Since we also moved the `byId` reducer into a separate file, we want to make sur
 With this refactor, we can change the state shape of any reducer in the future without rippling changes across the codebase.
 
 [Recap at 3:41 in video](https://egghead.io/lessons/javascript-redux-refactoring-the-reducers)
+
+<p align="center">
+<a href="./19-Updating_the_State_with_the_Fetched_Data.md"><- Prev</a>
+<a href="./21-Displaying_Loading_Indicators.md">Next -></a>
+</p>

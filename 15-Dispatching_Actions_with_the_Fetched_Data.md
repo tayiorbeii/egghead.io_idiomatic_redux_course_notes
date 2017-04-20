@@ -140,3 +140,8 @@ The `...rest` object now contains all the props other than `toggleTodo`, so we w
 ```
 
 [Recap at 3:30 in video](https://egghead.io/lessons/javascript-redux-dispatching-actions-with-the-fetched-data?series=building-react-applications-with-idiomatic-redux)
+
+<p align="center">
+<a href="./14-Fetching_Data_on_Route_Change.md"><- Prev</a>
+<a href="./16-Wrapping_dispatch_to_Recognize_Promises.md">Next -></a>
+</p>
