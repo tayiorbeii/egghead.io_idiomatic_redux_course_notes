@@ -207,3 +207,8 @@ const errorMessage = (state = null, action) => {
 Instead of having our API throw the error every time, we'll have it throw randomly so we can try out our "retry" button.
 
 [Demonstration and recap at 6:43 in video](https://egghead.io/lessons/javascript-redux-displaying-error-messages)
+
+<p align="center">
+<a href="./23-Avoiding_Race_Conditions_with_Thunks.md"><- Prev</a>
+<a href="./25-Creating_Data_on_the_Server.md">Next -></a>
+</p>

@@ -213,3 +213,8 @@ export const getVisibleTodos = (state, filter) => {
 ```
 
 [Recap at 3:54 in video](https://egghead.io/lessons/javascript-redux-normalizing-the-state-shape)
+
+<p align="center">
+<a href="./10-Colocating_Selectors_with_Reducers.md"><- Prev</a>
+<a href="./12-Wrapping_dispatch_to_Log_Actions.md">Next -></a>
+</p>

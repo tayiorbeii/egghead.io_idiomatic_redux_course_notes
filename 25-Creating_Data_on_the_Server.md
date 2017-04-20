@@ -114,3 +114,8 @@ const createList = (filter) => {
 ```
 
 [Demonstration and recap at 3:36 in video](https://egghead.io/lessons/javascript-redux-creating-data-on-the-server)
+
+<p align="center">
+<a href="./24-Displaying_Error_Messages.md"><- Prev</a>
+<a href="./26-Normalizing_API_Responses_with_normalizr.md">Next -></a>
+</p>

@@ -135,3 +135,8 @@ We are no longer using the `setVisibilityFilter` action creator, so it can be re
 We can also delete our custom `Link` component from `src/components` since we are now using the one provided by `react-router`.
 
 [Recap at 2:20 in video](https://egghead.io/lessons/javascript-redux-navigating-with-react-router-link?series=building-react-applications-with-idiomatic-redux)
+
+<p align="center">
+<a href="./05-Adding_React_Router_to_the_Project.md"><- Prev</a>
+<a href="./07-Filtering_Redux_State_with_React_Router_Params.md">Next -></a>
+</p>

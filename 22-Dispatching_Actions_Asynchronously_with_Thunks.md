@@ -74,3 +74,8 @@ const configureStore = () => {
 ```
 
 [Recap at 2:45 in video](https://egghead.io/lessons/javascript-redux-dispatching-actions-asynchronously-with-thunks)
+
+<p align="center">
+<a href="./21-Displaying_Loading_Indicators.md"><- Prev</a>
+<a href="./23-Avoiding_Race_Conditions_with_Thunks.md">Next -></a>
+</p>
