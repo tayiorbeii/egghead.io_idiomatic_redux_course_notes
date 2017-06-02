@@ -67,6 +67,6 @@ It may be tempting to supply an initial state for your entire store inside of `p
 
 
 <p align="center">
-  <a href="./01-Simplifying_the_Arrow_Functions.md">Prev</a>
+  <a href="./01-Simplifying_the_Arrow_Functions.md"><- Prev</a>
   <a href="./03-Persisting_the_State_to_the_Local_Storage.md">Next -></a>
 </p>
