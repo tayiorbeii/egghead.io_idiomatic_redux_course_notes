@@ -78,3 +78,9 @@ const configureStore = () => {
 Logging the action we dispatch along with the state before and after dispatching it makes it easy to find any mistakes.
 
 [Recap at 2:18 in video](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-log-actions)
+
+
+<p align="center">
+<a href="./11-Normalizing_the_State_Shape.md"><- Prev</a>
+<a href="./13-Adding_a_Fake_Backend_to_the_Project.md">Next -></a>
+</p>

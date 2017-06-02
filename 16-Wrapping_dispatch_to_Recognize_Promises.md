@@ -106,3 +106,9 @@ If we change it so that we call `addPromiseSupportToDispatch` before `addLogging
 This would give us an action type of `undefined` and we see the Promise instead of the action, which is not very useful.
 
 [Recap at 4:15 in video](https://egghead.io/lessons/javascript-redux-wrapping-dispatch-to-recognize-promises)
+
+
+<p align="center">
+<a href="./15-Dispatching_Actions_with_the_Fetched_Data.md"><- Prev</a>
+<a href="./17-The_Middleware_Chain.md">Next -></a>
+</p>

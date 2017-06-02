@@ -86,3 +86,7 @@ const mapDispatchToProps = (dispatch, ownProps) => ({
 ```
 
 #### [Recap at 2:05 in video](https://egghead.io/lessons/javascript-redux-simplifying-the-arrow-functions?course=building-react-applications-with-idiomatic-redux)
+
+<p align="center">
+<a href="./02-Supplying_the_Initial_State.md">Next -></a>
+</p>

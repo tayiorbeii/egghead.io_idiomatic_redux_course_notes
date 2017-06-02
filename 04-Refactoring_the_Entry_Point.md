@@ -107,3 +107,9 @@ We've defined a stateless functional component that just takes the `store` as a 
 Now inside of `index.js`, we can remove our `Provider` import as well as replacing the `App` component import with our `Root` component import.
 
 [Recap at 1:45 in video](https://egghead.io/lessons/javascript-redux-refactoring-the-entry-point?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
+
+
+<p align="center">
+<a href="./03-Persisting_the_State_to_the_Local_Storage.md"><- Prev</a>
+<a href="./05-Adding_React_Router_to_the_Project.md">Next -></a>
+</p>

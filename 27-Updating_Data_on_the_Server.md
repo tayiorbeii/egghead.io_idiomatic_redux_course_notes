@@ -54,3 +54,8 @@ const handleToggle = (state, action) => {
 ```
 
 [Demonstration and recap at 3:20 in video](https://egghead.io/lessons/javascript-redux-updating-data-on-the-server)
+
+
+<p align="center">
+  <a href="./26-Normalizing_API_Responses_with_normalizr.md"><- Prev</a>
+</p>

@@ -43,3 +43,8 @@ const VisibleTodoList = withRouter(connect(
 ```
 
 [Recap at 1:13 in video](https://egghead.io/lessons/javascript-redux-using-mapdispatchtoprops-shorthand-notation)
+
+<p align="center">
+<a href="./08-Using_withRouter_to_Inject_the_Params_into_Connected_Components.md"><- Prev</a>
+<a href="./10-Colocating_Selectors_with_Reducers.md">Next -></a>
+</p>

@@ -94,3 +94,9 @@ componentDidUpdate(prevProps) {
 `componentDidUpdate` receives the previous props as an argument. We then compare the current and the previous values of the filter. If the current filter is not the same as the previous filter, we call `fetchTodos()` for the current filter.
 
 [Recap at 3:36 in video](https://egghead.io/lessons/javascript-redux-fetching-data-on-route-change)
+
+
+<p align="center">
+<a href="./13-Adding_a_Fake_Backend_to_the_Project.md"><- Prev</a>
+<a href="./15-Dispatching_Actions_with_the_Fetched_Data.md">Next -></a>
+</p>

@@ -83,3 +83,9 @@ Now that our visbility filters are managed by React Router, we no longer need th
 
 
 [Recap at 2:20 in video](https://egghead.io/lessons/javascript-redux-filtering-redux-state-with-react-router-params)
+
+
+<p align="center">
+<a href="./06-Navigating_with_React_Router_Link.md"><- Prev</a>
+<a href="./08-Using_withRouter_to_Inject_the_Params_into_Connected_Components.md">Next -></a>
+</p>
