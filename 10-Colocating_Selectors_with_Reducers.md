@@ -83,3 +83,9 @@ Now we can go back to our `VisibleTodoList` component and import `getVisibleTodo
 `getVisibleTodos` encapsulates all the knowledge about the application state shape, so we can just pass it the whole state of our application and it will figure out how to select the visible todos according to the logic described in our selector.
 
 [Recap at 2:51 in video](https://egghead.io/lessons/javascript-redux-colocating-selectors-with-reducers?series=building-react-applications-with-idiomatic-redux)
+
+
+<p align="center">
+<a href="./09-Using_mapDispatchToProps_Shorthand_Notation.md"><- Prev</a>
+<a href="./11-Normalizing_the_State_Shape.md">Next -></a>
+</p>

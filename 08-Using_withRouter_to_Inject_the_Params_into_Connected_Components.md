@@ -86,3 +86,9 @@ const mapStateToProps = (state, { params }) => ({
 ```
 
 [Recap at 1:51 in video](https://egghead.io/lessons/javascript-redux-using-withrouter-to-inject-the-params-into-connected-components#/tab-transcript)
+
+
+<p align="center">
+<a href="./07-Filtering_Redux_State_with_React_Router_Params.md"><- Prev</a>
+<a href="./09-Using_mapDispatchToProps_Shorthand_Notation.md">Next -></a>
+</p>

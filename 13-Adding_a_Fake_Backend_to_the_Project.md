@@ -56,3 +56,9 @@ fetchTodos('all').then(todos =>
 ```
 
 The fake API waits for half a second to simulate the network connection, and then resolves the promise to an array of todos that we will treat as if they were retrieved from a remote server.
+
+
+<p align="center">
+<a href="./12-Wrapping_dispatch_to_Log_Actions.md"><- Prev</a>
+<a href="./14-Fetching_Data_on_Route_Change.md">Next -></a>
+</p>

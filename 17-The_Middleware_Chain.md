@@ -242,3 +242,9 @@ const wrapDispatchWithMiddlewares = (store, middlewares) =>
 ```
 
 [Recap at 5:42 in video](https://egghead.io/lessons/javascript-redux-the-middleware-chain)
+
+
+<p align="center">
+<a href="./16-Wrapping_dispatch_to_Recognize_Promises.md"><- Prev</a>
+<a href="./18-Applying_Redux_Middleware.md">Next -></a>
+</p>

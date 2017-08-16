@@ -82,3 +82,9 @@ export default configureStore;
 ```
 
 [Recap at 2:06 in video](https://egghead.io/lessons/javascript-redux-applying-redux-middleware)
+
+
+<p align="center">
+<a href="./17-The_Middleware_Chain.md"><- Prev</a>
+<a href="./19-Updating_the_State_with_the_Fetched_Data.md">Next -></a>
+</p>

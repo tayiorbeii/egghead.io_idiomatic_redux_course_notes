@@ -118,3 +118,9 @@ fetchData() {
 ```
 
 [Recap at 3:51 in video](https://egghead.io/lessons/javascript-redux-displaying-loading-indicators)
+
+
+<p align="center">
+<a href="./20-Refactoring_the_Reducers.md"><- Prev</a>
+<a href="./22-Dispatching_Actions_Asynchronously_with_Thunks.md">Next -></a>
+</p>

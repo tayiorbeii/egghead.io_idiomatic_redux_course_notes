@@ -50,3 +50,9 @@ const Root = ({ store }) => (
 _Note: the video contains a fix for weird address bar symbols stemming from an old release of `react-router`_
 
 [Recap at 1:09 in video](https://egghead.io/lessons/javascript-redux-adding-react-router-to-the-project?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
+
+
+<p align="center">
+<a href="./04-Refactoring_the_Entry_Point.md"><- Prev</a>
+<a href="./06-Navigating_with_React_Router_Link.md">Next -></a>
+</p>

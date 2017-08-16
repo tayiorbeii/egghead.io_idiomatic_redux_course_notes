@@ -78,3 +78,9 @@ fetchData() {
 With `redux-thunk` installed, we can remove the version of thunk middleware that we just wrote and import `thunk` from `redux-thunk` instead.
 
 [Recap at 2:52 in video](https://egghead.io/lessons/javascript-redux-avoiding-race-conditions-with-thunks)
+
+
+<p align="center">
+<a href="./22-Dispatching_Actions_Asynchronously_with_Thunks.md"><- Prev</a>
+<a href="./24-Displaying_Error_Messages.md">Next -></a>
+</p>

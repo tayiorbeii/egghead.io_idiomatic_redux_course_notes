@@ -144,3 +144,9 @@ store.subscribe(throttle(() => {
 Now, even if the store gets updated really fast, we have a guarantee that we only write to `localStorage` once a second at most.
 
 #### [Recap at 6:05 in video](https://egghead.io/lessons/javascript-redux-persisting-the-state-to-the-local-storage#/tab-transcript)
+
+
+<p align="center">
+<a href="./02-Supplying_the_Initial_State.md"><- Prev</a>
+<a href="./04-Refactoring_the_Entry_Point.md">Next -></a>
+</p>

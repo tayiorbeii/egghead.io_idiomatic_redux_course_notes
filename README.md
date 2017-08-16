@@ -6,6 +6,8 @@ This repo contains notes from [Dan Abramov's](https://github.com/gaearon) second
 
 ### Gitbook Setup
 ```
+
+npm install -g gitbook-cli
 npm install
 gitbook install
 gitbook serve
