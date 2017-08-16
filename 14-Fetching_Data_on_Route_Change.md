@@ -1,4 +1,4 @@
-#14. Fetching Data on Route Change
+# 14. Fetching Data on Route Change
 [Video Link](https://egghead.io/lessons/javascript-redux-fetching-data-on-route-change)
 
 To start, we'll remove the `fetchTodos` test API call from our `index.js` entry point because we want to fetch the todos from inside our `VisibleTodoList` component.
