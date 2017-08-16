@@ -69,7 +69,7 @@ By exporting `configureStore` instead of just `store`, we will be able to create
 import 'babel-polyfill'
 import React from 'react'
 import { render } from 'react-dom'
-import App from './components/App'
+import Root from './components/Root'
 import configureStore from './configureStore'
 
 const store = configureStore()
