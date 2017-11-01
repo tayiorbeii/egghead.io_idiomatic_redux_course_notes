@@ -63,7 +63,7 @@ const getVisibleTodos = (todos, filter) => {
 
 Since the `VisibleTodoList` component gets rendered from the app, we need to add the `filter` prop to make it available in the `mapStateToProps` function of the `VisibleTodoList`.
 
-We want the filter prop to correspond to the current `filter` parameter in our route configuration (the `path='/(:filter)'` we set in a previous lesson). React Router makes these parameters available to the route handler componens in a special prop called `params`, so we will add `params` as a prop to `App`. Now we will be able to read the filter from `params.filter`.
+We want the filter prop to correspond to the current `filter` parameter in our route configuration (the `path='/(:filter)'` we set in a previous lesson). React Router makes these parameters available to the route handler component in a special prop called `params`, so we will add `params` as a prop to `App`. Now we will be able to read the filter from `params.filter`.
 
 Since the `filter` param is empty on the root path, we'll pass `'all'` to `VisibleTodoList` as a fallback.
 
@@ -79,7 +79,7 @@ const App = ({ params }) => (
 );
 ```
 
-Now that our visbility filters are managed by React Router, we no longer need the `visibilityFilter` reducer. We can delete it, and also remove it from the `combineReducers()` declaration in `index.js`.
+Now that our visibility filters are managed by React Router, we no longer need the `visibilityFilter` reducer. We can delete it, and also remove it from the `combineReducers()` declaration in `index.js`.
 
 
 [Recap at 2:20 in video](https://egghead.io/lessons/javascript-redux-filtering-redux-state-with-react-router-params)
