@@ -21,7 +21,7 @@ Now if we take a look at the reducers managing the IDs, we will notice that thei
 
 Let's create a new function called `createList` that takes `filter` as an argument.
 
-`createList` will return another function– a reducer that handles the `id`s for the specified filter– , so its state shape is an array. To save time, we can copy & paste the implementation from `allIds`, and then just change the `'all`` literal to `createList`'s `filter` argument, so that we can create it for any filter.
+`createList` will return another function– a reducer that handles the `id`s for the specified filter– , so its state shape is an array. To save time, we can copy & paste the implementation from `allIds`, and then just change the `'all'` literal to `createList`'s `filter` argument, so that we can create it for any filter.
 
 ```javascript
 const createList = (filter) => {
