@@ -49,6 +49,27 @@ const Root = ({ store }) => (
 
 _Note: the video contains a fix for weird address bar symbols stemming from an old release of `react-router`_
 
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+#### `Root.js` After (react-router v4.0.0 or superior)
+```javascript
+import React, { PropTypes } from 'react';
+import { Provider } from 'react-redux';
+import App from './App';
+import { BrowserRouter, Route } from 'react-router-dom'
+
+const Root = ({ store }) => (
+    <Provider store={store}>
+        <BrowserRouter>
+            <Route path="/" component={App} />
+        </BrowserRouter>
+    </Provider>
+);
+.
+.
+.
+
+
 [Recap at 1:09 in video](https://egghead.io/lessons/javascript-redux-adding-react-router-to-the-project?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
 
 

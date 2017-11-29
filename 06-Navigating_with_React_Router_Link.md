@@ -19,6 +19,22 @@ const Root = ({ store }) => (
 .
 ```
 
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+#### Update `Root.js` (react-router v4.0.0 or superior)
+```javascript
+const Root = ({ store }) => (
+  <Provider store={store}>
+    <Router history={browserHistory}>
+      <Route path="/:filter?" component={App} />
+    </Router>
+  </Provider>
+);
+.
+.
+.
+```
+
 ### Update Links in `Footer.js`
 We also need to update our visibility filter links inside of the footer.
 
@@ -128,6 +144,35 @@ FilterLink.propTypes = {
 
 export default FilterLink;
 ```
+
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+#### `FilterLink.js` After (react-router v4.0.0 or superior)
+```javascript
+import React, { PropTypes } from 'react';
+import { NavLink } from 'react-router';
+
+const FilterLink = ({ filter, children }) => (
+    <NavLink
+        exact
+        to={'/' + (filter === 'all' ? '' : filter)}
+        activeStyle={{
+            textDecoration: 'none',
+            color: 'black',
+        }}
+    >
+        {children}
+    </NavLink>
+);
+
+FilterLink.propTypes = {
+  filter: PropTypes.oneOf(['all', 'completed', 'active']).isRequired,
+  children: PropTypes.node.isRequired,
+};
+
+export default FilterLink;
+```
+
 
 ### More Cleanup to Do...
 We are no longer using the `setVisibilityFilter` action creator, so it can be removed from `src/actions/index.js`, leaving us with just `addTodo` and `toggleTodo` action creators.
