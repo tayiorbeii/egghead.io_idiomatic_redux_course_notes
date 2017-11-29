@@ -68,7 +68,7 @@ const Root = ({ store }) => (
 .
 .
 .
-
+```
 
 [Recap at 1:09 in video](https://egghead.io/lessons/javascript-redux-adding-react-router-to-the-project?series=building-react-applications-with-idiomatic-redux#/tab-transcript)
 
