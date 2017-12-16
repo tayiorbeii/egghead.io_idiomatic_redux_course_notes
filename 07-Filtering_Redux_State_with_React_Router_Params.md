@@ -79,6 +79,20 @@ const App = ({ params }) => (
 );
 ```
 
+## `App.js` (react-router v4.0.0 or superior)
+```javascript
+const App = ({ match }) => (
+  <div>
+    <AddTodo />
+    <VisibleTodoList
+      filter={match.params.filter || 'all'}
+    />
+    <Footer />
+  </div>
+);
+```
+
+
 Now that our visibility filters are managed by React Router, we no longer need the `visibilityFilter` reducer. We can delete it, and also remove it from the `combineReducers()` declaration in `index.js`.
 
 
