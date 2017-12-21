@@ -150,7 +150,7 @@ _Note: the explanations in the video require a version of `react-router` previou
 #### `FilterLink.js` After (react-router v4.0.0 or superior)
 ```javascript
 import React, { PropTypes } from 'react';
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
 
 const FilterLink = ({ filter, children }) => (
     <NavLink
