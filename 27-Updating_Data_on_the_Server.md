@@ -3,7 +3,7 @@
 
 We'll start by changing the `toggleTodo` action creator to be a thunk action creator, so we add `dispatch` as a curried argument. Next, we'll call the `toggleTodo` API endpoint, and wait for the response to come back.
 
-When the response is available, we will dispatch an action with the type `'TOGGLE_TODO_SUCCESS', and the response. We'll use `normalize` again by passing the original `response` as the first argument, and the todo schema as the second argument.
+When the response is available, we will dispatch an action with the type `'TOGGLE_TODO_SUCCESS'`, and the response. We'll use `normalize` again by passing the original `response` as the first argument, and the todo schema as the second argument.
 
 ##### Updated `toggleTodo` Action Creator
 ```javascript
