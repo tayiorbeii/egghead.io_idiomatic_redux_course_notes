@@ -39,7 +39,7 @@ We will call our new file `configureStore.js`, and start by creating a funcion `
 
 We do this because this way our app doesn't have to know exactly how the store is created and whether or not we have subscribe handlers. It can just use the returned store in the `index.js` file.
 
-####`configureStore.js`
+#### `configureStore.js`
 ```javascript
 import { createStore } from 'redux'
 import throttle from 'lodash/throttle'
