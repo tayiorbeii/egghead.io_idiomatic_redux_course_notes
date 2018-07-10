@@ -57,11 +57,11 @@ export const getIds = (state) => state.ids;
 export const getIsFetching = state => state.isFetching;
 ```
 
-We want our reducer to keep track of both of these fields, so  rather than complicate the existing `createList` reducer, we will rename it to `ids`, because it manages just the `id`s.
+We want our reducer to keep track of both of these fields, so rather than complicate the existing `createList` reducer, we will rename it to `ids`, because it manages just the `id`s.
 
 ### Creating `isFetching`
 
-First, at the top of our file we need to add an import for the `combineRreducers` utility from Redux:
+First, at the top of our file we need to add an import for the `combineReducers` utility from Redux:
 ```javascript
 import { combineReducers } from 'redux';
 ```
