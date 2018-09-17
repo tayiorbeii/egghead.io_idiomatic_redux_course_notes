@@ -26,7 +26,7 @@ const todos = (state = [], action) => {
 
 We should treat our state as a database, so we are going to keep `todos` in an object indexed by `id`.
 
-We will start by renaming the reducer to `byID`. Now, rather than adding a new item at the end or mapping over every item, we will change the value in the lookup table.
+We will start by renaming the reducer to `byId`. Now, rather than adding a new item at the end or mapping over every item, we will change the value in the lookup table.
 
 Now both `TOGGLE_TODO` and `ADD_TODO` have the same logic. We want to return a new lookup table where the value of `action.id` is going to be the result of calling the reducer on the previous `action.id` value and the `action`.
 

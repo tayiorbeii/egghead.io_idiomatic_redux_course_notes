@@ -85,6 +85,32 @@ const mapStateToProps = (state, { params }) => ({
 });
 ```
 
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+#### `VisibleTodoList` After (react-router v4.0.0 or superior):
+```javascript
+const mapStateToProps = (state, ownProps) => ({
+  todos: getVisibleTodos(
+    state.todos,
+    ownProps.match.params.filter || 'all'),
+});
+
+// mapDispatchToProps ...
+
+const VisibleTodoList = withRouter(connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoList));
+```
+
+We can make `mapStateToProps` even more compact by reading `params` directly from the argument definition thanks to the ES6 destructuring syntax:
+
+```javascript
+const mapStateToProps = (state, { match }) => ({
+  todos: getVisibleTodos(state.todos, match.params.filter || 'all'),
+});
+```
+
 [Recap at 1:51 in video](https://egghead.io/lessons/javascript-redux-using-withrouter-to-inject-the-params-into-connected-components#/tab-transcript)
 
 

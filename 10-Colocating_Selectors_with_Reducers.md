@@ -25,6 +25,28 @@ const mapStateToProps = (state, { params }) => ({
 });
 ```
 
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+#### `VisibleTodoList` Before (react-router v4.0.0 or superior)
+```javascript
+const getVisibleTodos = (todos, filter) => {
+  switch (filter) {
+    case 'all':
+      return todos;
+    case 'completed':
+      return todos.filter(t => t.completed);
+    case 'active':
+      return todos.filter(t => !t.completed);
+    default:
+      throw new Error(`Unknown filter: ${filter}.`);
+  }
+};
+
+const mapStateToProps = (state, { match }) => ({
+  todos: getVisibleTodos(state.todos, match.params.filter || 'all'),
+});
+```
+
 ### Updating our Reducer
 
 We are going to move our `getVisibleTodos` implementation into the file with the reducers, and make it a named export.
@@ -87,6 +109,15 @@ Finally, we can refer back to our `mapStateToProps` mapping function and call `g
 ```
 const mapStateToProps = (state, { params }) => ({
       todos: getVisibleTodos(state, params.filter || 'all' )
+  });
+```
+
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+### react-router v4.0.0 or superior
+```
+const mapStateToProps = (state, { match }) => ({
+      todos: getVisibleTodos(state, match.params.filter || 'all' )
   });
 ```
 
