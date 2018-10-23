@@ -23,6 +23,8 @@ _Note: the explanations in the video require a version of `react-router` previou
 
 #### Update `Root.js` (react-router v4.0.0 or superior)
 ```javascript
+import { Route, BrowserRouter as Router,browserHistory } from "react-router-dom";
+
 const Root = ({ store }) => (
   <Provider store={store}>
     <Router history={browserHistory}>
