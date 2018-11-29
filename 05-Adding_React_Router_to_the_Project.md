@@ -52,6 +52,9 @@ _Note: the video contains a fix for weird address bar symbols stemming from an o
 _Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
 
 #### `Root.js` After (react-router v4.0.0 or superior)
+Start by adding React-Router-DOM to the project, run: $ npm install --save react-router-dom
+Then change import code to **react-router-dom**.
+
 ```javascript
 import React, { PropTypes } from 'react';
 import { Provider } from 'react-redux';
