@@ -62,6 +62,19 @@ const mapStateToProps = (state, { params }) => {
 };
 ```
 
+_Note: the explanations in the video require a version of `react-router` previous to the 4.0.0. Starting in that version some changes have been included which require this slightly different syntax:_
+
+#### Updating `mapStateToProps` (react-router v4.0.0 or superior)
+```javascript
+const mapStateToProps = (state, { match }) => {
+  const filter = match.params.filter || 'all';
+  return {
+    todos: getVisibleTodos(state, filter),
+    filter,
+  };
+};
+```
+
 Going back to the lifecycle method, we can use `this.props.filter` inside `componentDidMount`. When the todos are fetched, `fetchTodos` returns a Promise. We can use the `then` method to access the resolved `todos`, and log the current `filter` and the `todos` we just received from the fake backend.
 
 #### Implementing `componentDidMount`

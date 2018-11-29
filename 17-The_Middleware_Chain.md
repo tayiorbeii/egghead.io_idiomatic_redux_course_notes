@@ -34,7 +34,7 @@ const addPromiseSupportToDispatch = (store) => {
 
 The function returned by `addPromiseSupportToDispatch` acts like a normal `dispatch` function, but if it gets a Promise it waits for it to resolve, and then passes the result to `rawDispatch` (where `rawDispatch` is the previous value of `store.dispatch`).
 
-For non-promises, the function calls `rawDispatch` right away. `raw Dispatch` corresponds to store.dispatch at the time `addPromiseSupportToDispatch` was called.
+For non-promises, the function calls `rawDispatch` right away. `rawDispatch` corresponds to store.dispatch at the time `addPromiseSupportToDispatch` was called.
 
 
 ### Refactoring our `dispatch`-enhancing Functions

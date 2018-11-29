@@ -3,7 +3,7 @@
 
 In this lesson we will update the "links" that control the visibility filter to behave more like _real_ links. We're going to change it so our browser's "Back" button works, and the URL changes when we switch filters.
 
-We'll start by adding a parameter to the Route `path` called `filter`. We wrap it in parens to tell React Router that it's optional (we want all Todos shown by default).
+We'll start by adding a parameter to the Route `path` called `filter`. We wrap it in parents to tell React Router that it's optional (we want all Todos shown by default).
 
 #### Update `Root.js`
 ```javascript

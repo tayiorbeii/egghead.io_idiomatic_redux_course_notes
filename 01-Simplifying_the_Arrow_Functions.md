@@ -40,7 +40,7 @@ export const addTodo = (text) => ({
 })
 ```
 
-*Note:* It is important to wrap the expression in parens so that the parser understands this as an expression instead of a block.
+*Note:* It is important to wrap the expression in parents so that the parser understands this as an expression instead of a block.
 
 These steps can be repeated for any function that just returns an object; just remove the `return` statement, and change the body into an expression.
 
