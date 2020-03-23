@@ -1,7 +1,7 @@
 # 10. Colocating Selectors with reducers
 [Video Link](https://egghead.io/lessons/javascript-redux-colocating-selectors-with-reducers?series=building-react-applications-with-idiomatic-redux)
 
-Inside of `VisibleTodoList`, the `mapStateToProps` function uses the `getVisibleTodos` function, and it passes the slice of the `state` corresponding to the `todos`. However, if we ever change the state's structure, we have to remember to update this whole side.
+Inside of `VisibleTodoList`, the `mapStateToProps` function uses the `getVisibleTodos` function, and it passes the slice of the `state` corresponding to the `todos`. However, if we ever change the state's structure, we have to remember to update this call site.
 
 In order to clean this up, we can move the `getVisibleTodos` function out of the view layer and place it inside of the file that contains our `todos` reducer. We do this because the `todos` reducer knows the most about the internal structure of the state's `todos`.
 
